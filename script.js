@@ -62,7 +62,7 @@ dropdown.forEach(function(a){
     })       
 })
 
-let timeline = gsap.timeline({defaults:{duration:1}})
+let timeline = gsap.timeline({defaults:{duration:2}})
 timeline
 .from("header", {y:"-100%"})
 .from(".bookmark-logo", {opacity:0},"<")
