@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    font-family: Rubik;
+}
+
+header
+{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookmark-logo
+{
+    margin: 0 0 0 10%;
+}
+
+.phone-nav
+{
+    width: 50px;
+    height: 50px;
+    margin: 0 5% 0 0;
+    display: none;
+}
+
+nav
+{
+    display: ;
+}
+
+.nav-links
+{
+    margin: 0 5px 0 5px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+button:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login
+{
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    border-radius: 50px;
+}
+
+.login:hover
+{
+    transform: scale(1.1);
+    display: inline-block;
+}
+
+button
+{
+    border-radius: 50px;
+}
+
+button:focus
+{
+    outline:none;
+}
+
+button:hover
+{
+    transform: scale(1.1);
+}
+
+/************************MAIN*********************************/
+main
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-intro
+{
+    width: 34vw; 
+    
+}
+
+.main-intro h1
+{
+    font-size: 40px;
+}
+
+.main-intro p
+{
+    margin: 15px 0 15px 0;
+}
+
+.getChrome
+{
+    padding: 10px;
+    background-color: hsl(231, 69%, 60%);
+    margin: 0 5px 0 0;
+}
+
+.getFirefox
+{
+    padding: 10px;
+    margin: 0 0 0 5px;
+}
+
+.main-img
+{
+    margin: 40px 0 0 0;
+    min-width: 400px;
+    width: 40vw;
+}
+
+/***********************Features********************/
+.features
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features div
+{
+    width: 35vw;
+    min-width: 477px;
+    text-align:center;
+}
+
+.features ul
+{
+    margin: 40px 0 0 0;
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-links
+{
+   text-decoration: none;
+   color: black; 
+}
+
+.simple
+{
+    text-decoration: underline;
+}
+
+.tabs
+{
+    display:block;
+}
+
+.one
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0 0 0;
+}
+
+.two
+{
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0 0 0;
+}
+
+
+.three
+{
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0 0 0;
+}
+.tabs img
+{
+    margin: 0 0 0 0;
+    width: 50vw;
+}
+
+.tabs-intro
+{
+    width: 35vw;
+}
+
+.tabs-intro h3
+{
+    font-size: 35px;
+}
+
+.tabs-intro p
+{
+    margin: 15px 0 15px 0;
+}
+
+.tabs-intro button
+{
+    padding: 10px;
+    background-color: hsl(231, 69%, 60%);
+}
+/****************************extension*********************/
+.extension
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extension-intro
+{
+    text-align: center;
+    width: 35vw;
+    margin: 10% 0 0 0;
+}
+
+.extension-intro p
+{
+    margin: 10px 0 0 0
+}
+
+.browsers-section
+{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0;
+    max-width: 690px;
+    width: 100%;
+    
+}
+
+.browsers
+{
+    width: 230px;
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-radius: 10px;
+    border-color: silver;
+}
+
+.browsers img
+{
+    margin: 15px 0 15px 0;
+}
+
+.browsers h4
+{
+    margin: 0 0 10px 0;
+}
+
+.browsers button
+{
+    margin: 30px 0 15px 0;
+    padding: 10px;
+    background-color: hsl(231, 69%, 60%);
+    display: block;
+    
+}
+
+/****************************Questions***************************/
+.questions-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.questions
+{
+    margin: 10% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+}
+
+.questions-intro
+{
+    text-align: center;
+}
+
+.questions-intro p
+{
+    margin: 10px 0 40px 0;
+}
+
+.dropdown
+{
+    width: 100%;
+    border-top-style: solid;
+    border-width: 1px;
+}
+
+.dropdown-question
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+
+.dropdown-content
+{
+    display: none;
+}
+
+.questions-btn
+{
+    padding: 10px;
+    background-color: hsl(231, 69%, 60%);
+}
+
+/***************FOOTER*********************/
+footer
+{
+    margin: 10% 0 0 0;
+    
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: hsl(231, 59%, 26%);
+    color: white;
+}
+
+footer h2
+{
+    margin: 30px 0 20px 0;
+}
+
+@media (max-width:768px)
+{
+    .bookmark-logo{
+    
+        margin: 0 0 0 5%;
+    }
+/********************MAIN**************************/
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .main-img{
+        width: 100%;
+    }
+
+    .main-intro{
+        width: 75%;
+        text-align: center
+    }
+
+    .getChrome{
+        width: 45%;
+    }
+
+    .getFirefox{
+        width: 45%;
+    }
+/***********************Features********************/
+
+    .features{
+        margin: 10% 0 0 0;
+        
+    }
+
+    .features ul{
+        width: 75%;
+    }
+/****************************extension*********************/
+
+    .extension-intro{
+        width: 75%;
+    }
+
+    .browsers-section
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .browsers{
+        margin: 10px 0 10px 0;
+        width: 100%;
+    }
+
+    .browsers button{
+        width: 60%;
+    }
+/****************************Questions***************************/
+
+    .questions{
+        width: 90%;
+    }
+
+    .questions-btn{
+        margin: 20px 0 0 0;
+        width: 50%;
+    }
+
+}
+
+@media (max-width:590px){
+    header
+    {
+        min-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .bookmark-logo
+    {
+        margin: 0 0 0 10%;
+        align-self: flex-start;
+    }
+    
+    .phone-nav
+    {
+        display: inline-block;
+        align-self: flex-end;
+    }
+    
+    nav
+    {
+        width: 100%;
+        display: none;
+    }
+    
+    nav ul
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav-links
+    {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        border-style: solid;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .one
+    {
+        flex-direction: column;
+    }
+
+    .two
+    {
+        flex-direction: column;
+    }
+
+    .three
+    {
+        flex-direction: column;
+    }
+
+    .tabs img
+    {
+        width: 100%;
+    }
+
+    .tabs-intro
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+}
