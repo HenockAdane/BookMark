@@ -1,3 +1,19 @@
+let phoneNav = document.querySelector(".phone-nav");
+let nav = document.querySelector("nav");
+
+phoneNav.addEventListener("click", function(e){
+    e.preventDefault();
+    if (nav.style.display === "block"){
+        nav.style.display = "none";
+    }
+    else{
+        nav.style.display = "block"
+    }
+})
+
+
+
+
 let simpleBtn = document.querySelector(".simple");
 let speedyBtn = document.querySelector(".speedy");
 let easyBtn = document.querySelector(".easy")
@@ -62,7 +78,7 @@ dropdown.forEach(function(a){
     })       
 })
 
-let timeline = gsap.timeline({defaults:{duration:2}})
+let timeline = gsap.timeline({defaults:{duration:1}})
 timeline
 .from("header", {y:"-100%"})
 .from(".bookmark-logo", {opacity:0},"<")
@@ -73,19 +89,6 @@ timeline
 .from(".extension", {x:"100%"},"<")
 .from(".questions-container", {x:"-100%"},"<")
 .from("footer", {y:"100%"},"<")
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
