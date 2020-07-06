@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
 *
 {
@@ -396,17 +396,11 @@ footer h2
     }
 
     .main-intro{
-        width: 75%;
-        text-align: center
+        width: 100%;
+        text-align: center;
     }
 
-    .getChrome{
-        width: 45%;
-    }
-
-    .getFirefox{
-        width: 45%;
-    }
+ 
 /***********************Features********************/
 
     .features{
