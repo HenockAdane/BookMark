@@ -15,15 +15,21 @@ body
 
 header
 {
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.bookmark-logo
+.logoDiv
 {
-    margin: 0 0 0 10%;
+   
+    align-self: flex-start;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-style: solid;
 }
 
 .phone-nav
@@ -36,7 +42,7 @@ header
 
 nav
 {
-    display: ;
+    border-style: solid;
 }
 
 .nav-links
@@ -339,8 +345,7 @@ main
 footer
 {
     margin: 10% 0 0 0;
-    
-    height: 20vh;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -356,10 +361,7 @@ footer h2
 
 @media (max-width:768px)
 {
-    .bookmark-logo{
     
-        margin: 0 0 0 5%;
-    }
 /********************MAIN**************************/
     main{
         flex-direction: column-reverse;
@@ -391,6 +393,12 @@ footer h2
     .features ul{
         width: 75%;
     }
+
+    .features div
+    {
+        width: 100%;
+        min-width: unset;
+    }
 /****************************extension*********************/
 
     .extension-intro{
@@ -399,7 +407,8 @@ footer h2
 
     .browsers-section
     {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        justify-content: unset;
         align-items: center;
     }
 
@@ -425,20 +434,20 @@ footer h2
 }
 
 @media (max-width:590px){
-    header
+   header
     {
         min-height: 10vh;
-        display: flex;
-        align-items: center;
         justify-content: center;
         flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .logoDiv{
+        width: 100%;
     }
     
-    .bookmark-logo
-    {
-        margin: 0 0 0 10%;
-        align-self: flex-start;
-    }
+ 
     
     .phone-nav
     {
@@ -452,21 +461,30 @@ footer h2
         display: none;
     }
     
-    nav ul
+   nav ul
     {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    
+  
     .nav-links
     {
         color: black;
         text-decoration: none;
         padding: 10px;
-        border-style: solid;
         width: 100%;
         text-align: center;
+        background-color: white;
+    }
+
+    .login
+    {
+        background-color: hsl(0, 94%, 66%);
+        color: white;
+        width: 100%;
+        border-radius: unset;
+        margin: 0;
     }
 
 
