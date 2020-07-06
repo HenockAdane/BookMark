@@ -29,7 +29,7 @@ header
     align-items: center;
     justify-content: space-between;
     display: flex;
-    border-style: solid;
+   
 }
 
 .phone-nav
@@ -42,7 +42,7 @@ header
 
 nav
 {
-    border-style: solid;
+   
 }
 
 .nav-links
