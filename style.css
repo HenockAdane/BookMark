@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-style: solid;
 }
 
 body
@@ -29,7 +30,7 @@ header
     align-items: center;
     justify-content: space-between;
     display: flex;
-   
+    border-style: solid;
 }
 
 .phone-nav
@@ -42,7 +43,7 @@ header
 
 nav
 {
-   
+    border-style: solid;
 }
 
 .nav-links
@@ -126,6 +127,7 @@ main
 .getFirefox
 {
     padding: 10px;
+    background-color: hsl(0, 94%, 66%);
     margin: 0 0 0 5px;
 }
 
@@ -354,6 +356,10 @@ footer
     color: white;
 }
 
+footer h4
+{
+    margin: 10px 0 0 0;
+}
 footer h2
 {
     margin: 30px 0 20px 0;
@@ -369,6 +375,7 @@ footer h2
 
     .main-img{
         width: 100%;
+        min-width: unset;
     }
 
     .main-intro{
@@ -515,3 +522,4 @@ footer h2
     }
 
 }
+
